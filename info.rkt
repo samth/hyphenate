@@ -1,6 +1,4 @@
 #lang info
-(define collection "hyphenate")
-(define scribblings '(("scribblings/hyphenate.scrbl" ())))
-(define compile-omit-paths '("tests.rkt"))
+(define collection 'multi)
 (define deps '("base" "txexpr"))
 (define build-deps '("scribble-lib"))
